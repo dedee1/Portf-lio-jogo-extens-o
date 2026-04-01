@@ -461,6 +461,35 @@
     display: grid;
     grid-template-columns: 1fr 1.1fr;
     gap: 22px;
+    align-items: start;
+  }
+
+  .community-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 22px;
+    align-items: start;
+  }
+  
+  .community-benefit-card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .community-image-box {
+    margin-top: 22px;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    min-height: 260px;
+    background: rgba(255, 255, 255, 0.04);
+  }
+  
+  .community-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
   
   .team-grid {
