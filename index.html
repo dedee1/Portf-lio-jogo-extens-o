@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Segurança Cibernética | Portfólio do Projeto</title>
+  <title>Click Seguro | Portfólio do Projeto</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -19,7 +19,7 @@
         <img src="images/unifil-logo.png" alt="Logo UniFil" class="brand-logo" />
         <div class="brand-text">
           <span class="brand-mini">Projeto de Extensão</span>
-          <strong>Segurança Cibernética</strong>
+          <strong>Click Seguro</strong>
         </div>
       </div>
 
@@ -28,6 +28,8 @@
         <li><a href="#objetivo">Objetivo</a></li>
         <li><a href="#tema">Tema</a></li>
         <li><a href="#ideia">Sobre o jogo</a></li>
+        <li><a href="#ciclo">Ciclo do jogo</a></li>
+        <li><a href="#logica">Modelagem lógica</a></li>
         <li><a href="#publico">Público-alvo</a></li>
         <li><a href="#comunidade">Comunidade</a></li>
         <li><a href="#quem-somos">Quem somos</a></li>
@@ -37,10 +39,10 @@
     <div class="hero-content container">
       <div class="hero-left">
         <span class="tag">Portfólio do Projeto</span>
-        <h1>Segurança Cibernética</h1>
+        <h1>Click Seguro</h1>
         <p class="hero-subtitle">Cada escolha protege seus dados.</p>
         <p class="hero-description">
-          Um jogo educativo sobre ética digital e segurança cibernética, criado para conscientizar usuários sobre golpes virtuais e boas práticas de proteção online.
+          Um jogo educativo sobre ética digital e segurança cibernética, criado para conscientizar usuários sobre golpes virtuais por meio de desafios, decisões, feedback imediato e aprendizado por repetição.
         </p>
 
         <div class="hero-buttons">
@@ -59,7 +61,7 @@
           </div>
           <div class="mini-card">
             <span class="mini-title">Foco</span>
-            <strong>Conscientização</strong>
+            <strong>Segurança Digital</strong>
           </div>
         </div>
       </div>
@@ -90,7 +92,11 @@
           </p>
 
           <p>
-            A proposta é criar uma experiência interativa e acessível, onde o jogador assume o papel de um usuário comum da internet, sendo exposto a diversas situações do dia a dia digital, como e-mails, mensagens e links suspeitos. Durante essas interações, um “hacker” tenta aplicar golpes, e cabe ao jogador tomar decisões corretas para proteger seus dados e seu dispositivo.
+            A proposta é criar uma experiência interativa e acessível, onde o jogador assume o papel de um usuário comum da internet, sendo exposto a diversas situações do dia a dia digital, como e-mails suspeitos, mensagens falsas, links desconhecidos, arquivos maliciosos e tentativas de golpe por meio de ligações.
+          </p>
+
+          <p>
+            Durante essas interações, o sistema apresenta desafios que exigem tomada de decisão por parte do jogador, enquanto o progresso do “hacker” representa o nível de comprometimento do sistema. Cada escolha feita interfere diretamente no andamento da partida, nas vidas disponíveis e no resultado final do jogo.
           </p>
 
           <p>
@@ -178,35 +184,109 @@
 
         <div class="glass-card large-card">
           <p>
-            O jogo funciona através de um sistema de decisões, onde o jogador precisa identificar tentativas de golpe feitas por um hacker.
+            O jogo proposto é estruturado a partir de uma dinâmica cíclica que simula situações reais do uso da internet, com o objetivo de ensinar boas práticas de segurança digital por meio da repetição e da tomada de decisões.
           </p>
-
-          <p>Durante a partida:</p>
-
-          <div class="feature-list">
-            <div class="feature-item">O jogador realiza tarefas comuns da internet;</div>
-            <div class="feature-item">Recebe e-mails, mensagens, ligações e links suspeitos;</div>
-            <div class="feature-item">Precisa decidir se aquilo é seguro ou não.</div>
-          </div>
-
-          <p>Existe uma barra de segurança, que representa a proteção do sistema:</p>
-
-          <div class="status-grid">
-            <div class="status-card status-green">Acertos → aumentam ou mantêm a segurança;</div>
-            <div class="status-card status-red">Erros → reduzem a segurança.</div>
-          </div>
 
           <p>
-            O jogador possui um número limitado de vidas. Caso cometa muitos erros, o hacker consegue invadir o sistema.
+            Esse ciclo de funcionamento é baseado em uma sequência contínua de etapas que se repetem ao longo da experiência do jogador, garantindo que o jogo seja interativo, educativo e rejogável.
           </p>
 
-          <p>Ao final, o jogo apresenta um feedback educativo, explicando:</p>
+          <p>
+            Inicialmente, o sistema apresenta ao jogador um desafio, que consiste em uma situação comum do ambiente digital, como um e-mail suspeito, uma mensagem falsa no WhatsApp, um link desconhecido ou até uma tentativa de golpe por meio de arquivos ou ligações.
+          </p>
+
+          <p>
+            A partir dessa situação, o jogador precisa realizar uma ação, tomando uma decisão entre opções como clicar ou não no link, abrir ou ignorar a mensagem, denunciar o conteúdo ou confiar na informação recebida.
+          </p>
 
           <div class="feature-list">
-            <div class="feature-item">Onde o jogador errou;</div>
-            <div class="feature-item">Qual era o golpe;</div>
-            <div class="feature-item">Como evitar na vida real.</div>
+            <div class="feature-item">Situações simuladas baseadas em riscos reais da internet;</div>
+            <div class="feature-item">Decisões que afetam vidas, progresso e desfecho da partida;</div>
+            <div class="feature-item">Feedback imediato após cada escolha;</div>
+            <div class="feature-item">Aprendizado por repetição, erro e correção.</div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="ciclo">
+      <div class="section-header">
+        <span class="section-tag">🔁 Representação do Ciclo do Jogo</span>
+        <h2>Ciclo do Jogo</h2>
+      </div>
+
+      <div class="glass-card large-card">
+        <p>
+          O funcionamento do jogo ocorre em um ciclo contínuo de desafio, decisão, feedback e atualização do estado da partida.
+        </p>
+
+        <div class="cycle-steps">
+          <div class="cycle-step">1. O sistema apresenta um novo desafio ao jogador</div>
+          <div class="cycle-step">2. O jogador analisa a situação e escolhe uma ação</div>
+          <div class="cycle-step">3. O sistema informa se a decisão foi correta ou incorreta</div>
+          <div class="cycle-step">4. As vidas, o progresso e o nível de ameaça são atualizados</div>
+          <div class="cycle-step">5. Um novo desafio é apresentado, reiniciando o ciclo</div>
+        </div>
+
+        <p>
+          Esse processo se repete até que uma das condições de término seja atingida. O jogador vence quando consegue completar todos os desafios mantendo ao menos uma vida. Por outro lado, perde quando todas as suas vidas são esgotadas, resultando no comprometimento total do sistema.
+        </p>
+
+        <p>
+          Após o término, seja por vitória ou derrota, o jogo oferece a possibilidade de reinício, permitindo uma nova tentativa e reforçando o aprendizado por repetição e erro.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="logica">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-tag">🧠 Modelagem Lógica do Jogo</span>
+          <h2>Modelagem Lógica</h2>
+        </div>
+
+        <div class="logic-grid">
+          <article class="glass-card logic-card">
+            <h3>Estados do jogo</h3>
+            <div class="feature-list compact">
+              <div class="feature-item">Início: tela inicial onde o jogador pode começar a partida;</div>
+              <div class="feature-item">Execução: fase em que o jogador interage com os desafios e recebe feedback;</div>
+              <div class="feature-item">Término por falha: ocorre quando todas as vidas são perdidas;</div>
+              <div class="feature-item">Conclusão por sucesso: ocorre quando todos os desafios são completados;</div>
+              <div class="feature-item">Reinício: permite que o jogador comece uma nova partida.</div>
+            </div>
+          </article>
+
+          <article class="glass-card logic-card">
+            <h3>Decisões do jogador</h3>
+            <p>
+              Durante a execução, o jogo depende diretamente das decisões do jogador, que envolvem identificar riscos, analisar informações e escolher a ação mais segura.
+            </p>
+            <div class="button-actions">
+              <span class="action-pill">Abrir</span>
+              <span class="action-pill">Ignorar</span>
+              <span class="action-pill">Denunciar</span>
+              <span class="action-pill">Bloquear</span>
+            </div>
+          </article>
+
+          <article class="glass-card logic-card">
+            <h3>Resposta do sistema</h3>
+            <p>
+              Em resposta às ações do jogador, o sistema gera saídas visuais e funcionais, como alertas de acerto ou erro, perda de vidas, avanço do ataque do hacker e, ao final da partida, explicações educativas que consolidam o aprendizado.
+            </p>
+
+            <div class="status-grid">
+              <div class="status-card status-green">Acerto → jogador permanece seguro e avança</div>
+              <div class="status-card status-red">Erro → perde vida e o hacker avança</div>
+            </div>
+          </article>
+        </div>
+
+        <div class="glass-card large-card extra-top">
+          <p>
+            Do ponto de vista da modelagem lógica, o jogo apresenta uma estrutura organizada, com estados bem definidos e um ciclo interativo contínuo. Dessa forma, a experiência se torna não apenas envolvente, mas também eficaz no ensino de ética e segurança digital.
+          </p>
         </div>
       </div>
     </section>
@@ -242,7 +322,7 @@
             <p>
               O projeto beneficia principalmente pessoas que não possuem conhecimento aprofundado sobre segurança na internet, tornando-as menos vulneráveis a golpes digitais.
             </p>
-          
+
             <div class="community-image-box">
               <img src="images/comunidade.png" alt="Comunidade beneficiada pelo projeto" />
             </div>
@@ -270,7 +350,7 @@
 
     <section class="section container" id="quem-somos">
       <div class="section-header">
-        <span class="section-tag">🔹 Quem Somos </span>
+        <span class="section-tag">🔹 Quem Somos (MODELO)</span>
         <h2>Quem Somos</h2>
       </div>
 
@@ -280,15 +360,17 @@
             <img src="images/integrante1.png" alt="Foto de Pietro Antônio Leite de Freitas" />
           </div>
           <h3>Pietro Antônio Leite de Freitas</h3>
-          <p><strong>Curso:</strong> Engenharia de software - UNIFIL </p>
+          <p><strong>Curso:</strong> Engenharia de software</p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/seulink" target="_blank">(seu link)</a></p>
         </article>
 
         <article class="team-card">
           <div class="team-image-wrap">
-            <img src="images/integrante2.jpg" alt="Foto de André Luis Soares" />
+            <img src="images/integrante2.png" alt="Foto de André Luis Soares" />
           </div>
           <h3>André Luis Soares</h3>
-          <p><strong>Curso:</strong> Engenharia de software - UNIFIL</p>
+          <p><strong>Curso:</strong> Engenharia de software</p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/link2" target="_blank">(link)</a></p>
         </article>
 
         <article class="team-card">
@@ -296,9 +378,11 @@
             <img src="images/integrante3.png" alt="Foto de Vitor de Souza Raimundo" />
           </div>
           <h3>Vitor de Souza Raimundo</h3>
-          <p><strong>Curso:</strong> Engenharia de software - UNIFIL </p>
+          <p><strong>Curso:</strong> Engenharia de software</p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/link3" target="_blank">(link)</a></p>
         </article>
       </div>
+
     </section>
   </main>
 
@@ -308,7 +392,7 @@
         <img src="images/unifil-logo.png" alt="Logo UniFil" class="footer-logo" />
       </div>
       <div>
-        <h3>Segurança Cibernética</h3>
+        <h3>Click Seguro</h3>
         <p>Projeto de Extensão com foco em ética digital e segurança cibernética.</p>
       </div>
       <div>
